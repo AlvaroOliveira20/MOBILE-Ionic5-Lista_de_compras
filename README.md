@@ -11,7 +11,7 @@ Após instalar o node, execute o comando de instalação no CMD/PowerShell:
 npm install -g ionic
 ```
 
-###Rodando o projeto
+### Rodando o projeto
 ```
 npm install
 ```
@@ -20,7 +20,7 @@ npm install
 ionic serve
 ```
 
-#Atualize seu environment para utilizar seu projeto do firebase!
+# Atualize seu environment para utilizar seu projeto do firebase!
 
 
 
