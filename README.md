@@ -1,4 +1,4 @@
-# MOBILE / Ionic5: Lista_de_compras
+# MOBILE / Ionic5: Lista de compras
 Simples lista de compras em Ionic5 com Firebase.
 
 É necessário ter instalado o nodeJS e o Ionic para executar o projeto:
