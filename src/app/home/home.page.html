@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Blank </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,8 +11,11 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div style="display: flex;flex-direction: column; width: 100%; justify-content: center; align-items: center; height: 100%">
+   
+    <ion-input [(ngModel)]="produto" placeholder="Nome do produto" style="--background: #ddd; width: 20%; max-height: 30px; border-radius: 20px; margin-top: 10px; margin-bottom: 8px">
+      
+    </ion-input>
+    <ion-button (click)="button()">Cadastrar</ion-button>
   </div>
 </ion-content>
